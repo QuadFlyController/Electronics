@@ -1,0 +1,27 @@
+# KiCad temporary and backup files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist and manufacturing export files
+*.net
+*.dsn
+*.ses
+*.xml
+*.csv
+*.tsv
+
+# Directories
+/build/
+*-backups/
