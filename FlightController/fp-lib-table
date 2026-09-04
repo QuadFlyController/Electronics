@@ -1,0 +1,13 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ICM-42688-P") (type "KiCad") (uri "C:/KicadSymbols/ICM-42688-P/ICM-42688-P.pretty") (options "") (descr ""))
+	(lib (name "BMP390") (type "KiCad") (uri "C:/KicadSymbols/BMP390.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "C:/KicadSymbols/BMP390/Library.pretty") (options "") (descr ""))
+	(lib (name "BMP390") (type "KiCad") (uri "C:/KicadSymbols/BMP390/BMP390.pretty") (options "") (descr ""))
+	(lib (name "74439346068") (type "KiCad") (uri "C:/KicadSymbols/74439346068/74439346068.pretty") (options "") (descr ""))
+	(lib (name "TPS2115ADRBR") (type "KiCad") (uri "C:/KicadSymbols/TPS2115ADRBR/TPS2115ADRBR.pretty") (options "") (descr ""))
+	(lib (name "XY-SM08B-SRSS-TB") (type "KiCad") (uri "C:/KicadSymbols/XY-SM08B-SRSS-TB/XY-SM08B-SRSS-TB.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "C:/KicadSymbols/SMBJ24A/Library.pretty") (options "") (descr ""))
+	(lib (name "SMBJ24A") (type "KiCad") (uri "C:/KicadSymbols/SMBJ24A/SMBJ24A.pretty") (options "") (descr ""))
+	(lib (name "SMBJ18A") (type "KiCad") (uri "C:/KicadSymbols/SMBJ18A/SMBJ18A.pretty") (options "") (descr ""))
+)
