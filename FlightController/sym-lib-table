@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "USB-TYPE-C-018")(type "KiCad")(uri "C:/KicadSymbols/USB-TYPE-C-018/USB-TYPE-C-018.kicad_sym")(options "")(descr ""))
+  (lib (name "EasyEDA")(type "KiCad")(uri "C:/KicadSymbols/USB-TYPE-C-018/EasyEDA.kicad_sym")(options "")(descr ""))
+)
