@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.3,
-          "width": 0.67
+          "height": 0.95,
+          "width": 0.975
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -528,9 +528,18 @@
       },
       {
         "clearance": 0.1,
+        "name": "NECK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.5,
         "tuning_profile": "",
@@ -540,7 +549,7 @@
         "clearance": 0.1,
         "name": "U6-BST",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": ""
@@ -551,7 +560,7 @@
         "diff_pair_width": 0.19,
         "name": "USB_DIFF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.19,
         "tuning_profile": ""
@@ -602,6 +611,10 @@
       {
         "netclass": "U6-BST",
         "pattern": "GND"
+      },
+      {
+        "netclass": "NECK",
+        "pattern": "IN1"
       }
     ]
   },

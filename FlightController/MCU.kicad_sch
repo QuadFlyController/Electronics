@@ -4065,16 +4065,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 118.11) (xy 127 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c88f4f1-2cdf-4d63-901d-2f9fe356ffa5")
-	)
-	(wire
-		(pts
 			(xy 107.95 50.8) (xy 107.95 48.26)
 		)
 		(stroke
@@ -4105,13 +4095,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 115.57) (xy 127 115.57)
+			(xy 124.46 113.03) (xy 127 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a591d6c-5298-4289-81ec-4b93143ff50b")
+		(uuid "49dc472e-36dc-46f4-8643-d6d56dd8776a")
 	)
 	(wire
 		(pts
@@ -4155,6 +4145,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 120.65) (xy 127 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c106ea6-8205-4b01-9c0d-e2fb03f134b9")
+	)
+	(wire
+		(pts
 			(xy 147.32 146.05) (xy 147.32 147.32)
 		)
 		(stroke
@@ -4182,6 +4182,16 @@
 			(type default)
 		)
 		(uuid "652d79f0-8d6d-476d-acf4-0302a17b975f")
+	)
+	(wire
+		(pts
+			(xy 124.46 115.57) (xy 127 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d52237-3a3b-4540-8f88-88eec35ad06a")
 	)
 	(wire
 		(pts
@@ -4272,16 +4282,6 @@
 			(type default)
 		)
 		(uuid "7535291a-336e-4454-a1f1-98c68e9543aa")
-	)
-	(wire
-		(pts
-			(xy 124.46 113.03) (xy 127 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77377a6c-2446-40d5-9728-a18c8201fbdd")
 	)
 	(wire
 		(pts
@@ -4385,6 +4385,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 118.11) (xy 127 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956947ee-ea03-415e-9ea2-414b5f4a9d3f")
+	)
+	(wire
+		(pts
 			(xy 162.56 97.79) (xy 172.72 97.79)
 		)
 		(stroke
@@ -4422,16 +4432,6 @@
 			(type default)
 		)
 		(uuid "9fee1a43-19a6-48f8-b4da-a7f04b8f5a60")
-	)
-	(wire
-		(pts
-			(xy 124.46 120.65) (xy 127 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2f2f28e-9314-496c-b940-d14d7c63f34d")
 	)
 	(wire
 		(pts
@@ -4989,7 +4989,7 @@
 	)
 	(hierarchical_label "M4"
 		(shape input)
-		(at 124.46 120.65 180)
+		(at 124.46 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5000,7 +5000,7 @@
 	)
 	(hierarchical_label "M2"
 		(shape input)
-		(at 124.46 115.57 180)
+		(at 124.46 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5011,7 +5011,7 @@
 	)
 	(hierarchical_label "M1"
 		(shape input)
-		(at 124.46 113.03 180)
+		(at 124.46 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5044,7 +5044,7 @@
 	)
 	(hierarchical_label "M3"
 		(shape input)
-		(at 124.46 118.11 180)
+		(at 124.46 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
