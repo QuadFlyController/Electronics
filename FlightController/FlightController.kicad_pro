@@ -16,7 +16,7 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
-        "dimension_precision": 4,
+        "dimension_precision": 5,
         "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 0.975
+          "height": 0.5334,
+          "width": 0.3048
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -76,7 +76,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|133712600|97006300|d2d1c8f4-8954-4516-9a8d-6248709456c7|00000000-0000-0000-0000-000000000000",
+          "Manually Modified"
+        ],
+        [
+          "lib_footprint_mismatch|135700000|104200000|baa8c9a3-63dd-404b-aa9f-400b59536c11|00000000-0000-0000-0000-000000000000",
+          "Manually Modified"
+        ],
+        [
+          "lib_footprint_mismatch|135700000|73700000|2c31c486-5fd4-482e-8c93-71fae5ead9c0|00000000-0000-0000-0000-000000000000",
+          "Manually Modified"
+        ],
+        [
+          "lib_footprint_mismatch|141401300|86600000|69c4fda5-56dc-4cbc-8b84-3ca8d3dc1e1c|00000000-0000-0000-0000-000000000000",
+          "Manually Modified"
+        ],
+        [
+          "lib_footprint_mismatch|144535000|71904200|833fbd48-5aaf-4eab-8980-7b152e704b14|00000000-0000-0000-0000-000000000000",
+          "Manually Modified"
+        ],
+        [
+          "lib_footprint_mismatch|149011000|97900000|f4a856e0-99a7-4cd9-aff0-18c19b5a8490|00000000-0000-0000-0000-000000000000",
+          "Manually Modified"
+        ],
+        [
+          "lib_footprint_mismatch|155850001|101224900|fd63df87-4e32-4669-9a5a-6fc55bc66b24|00000000-0000-0000-0000-000000000000",
+          "Manually Modified"
+        ],
+        [
+          "lib_footprint_mismatch|166200000|104200000|82077867-b60e-43f2-859a-e3432e1d2902|00000000-0000-0000-0000-000000000000",
+          "Manually Modified"
+        ],
+        [
+          "lib_footprint_mismatch|166200000|73700000|80457d2a-dee2-4f2c-9174-44ca37029e8e|00000000-0000-0000-0000-000000000000",
+          "Manually Modified"
+        ],
+        [
+          "lib_footprint_mismatch|169757500|82030000|e606ec0c-b12b-47c4-88c8-bda47f235904|00000000-0000-0000-0000-000000000000",
+          "Manually Modified"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -150,7 +191,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -162,7 +203,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -530,7 +571,7 @@
         "clearance": 0.1,
         "name": "NECK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": ""
@@ -539,7 +580,7 @@
         "clearance": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.5,
         "tuning_profile": "",
@@ -547,9 +588,24 @@
       },
       {
         "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SPI\t",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
         "name": "U6-BST",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": ""
@@ -560,7 +616,7 @@
         "diff_pair_width": 0.19,
         "name": "USB_DIFF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.19,
         "tuning_profile": ""
@@ -615,6 +671,166 @@
       {
         "netclass": "NECK",
         "pattern": "IN1"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "/IMU/SCLK"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "/IMU/MOSI"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "/IMU/MISO"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "/IMU/CS_IMU"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "/IMU/INT1_IMU"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U4-RESV-Pad3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/MCU/RX"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/MCU/TX"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(J3-Pad1)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U1-NC-Pad4)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U3-PA0-Pad10)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U3-PA1-Pad11)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U3-PA15-Pad38)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U3-PA2-Pad12)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U3-PA8-Pad29)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U3-PB10-Pad21)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U3-PB12-Pad25)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U3-PB13-Pad26)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U3-PB15-Pad28)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U3-PB3-Pad39)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U3-PB4-Pad40)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U3-PC13-Pad2)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U3-PC14-Pad3)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U5-INT-Pad7)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U6-RT-Pad1)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U7-D0-Pad2)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U7-STAT-Pad1)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(USB1-SBU1-PadA8)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(USB1-SBU2-PadB8)"
+      },
+      {
+        "netclass": "NECK",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "NECK",
+        "pattern": "IN2"
+      },
+      {
+        "netclass": "NECK",
+        "pattern": "Net-(USB1-CC1)"
+      },
+      {
+        "netclass": "NECK",
+        "pattern": "Net-(USB1-CC2)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U4-RESV-Pad2)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": ""
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "unconnected-(U4-RESV-Pad10)"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "/MCU/SWCLK"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "/MCU/SWDIO"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "*"
+      },
+      {
+        "netclass": "SPI\t",
+        "pattern": "/IMU/CS_BMP"
       }
     ]
   },
@@ -623,10 +839,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "FlightController.step",
       "svg": "",
       "vrml": ""
     },
@@ -914,7 +1130,7 @@
         "uuid": "688c7ad8-be84-4019-8541-b1ba27a85e5e"
       }
     ],
-    "used_designators": "U1-7,C1-30,D1-3,#PWR1-66,R1-21,J1-3,Y1-2,SW1-2,NRST1-2,L1,BOOT1-2,TP1-4,CR1-2,S1,USB1,H1-4",
+    "used_designators": "U1-7,C1-31,D1-3,#PWR1-66,R1-21,J1-3,Y1-2,SW1-2,NRST1-2,L1,BOOT1-2,TP1-4,CR1-2,S1,USB1,H1-4,JP1",
     "variants": []
   },
   "sheets": [

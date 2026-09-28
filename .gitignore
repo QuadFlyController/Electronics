@@ -7,12 +7,15 @@
 *.kicad_prl
 *.sch-bak
 *~
+~*.lck
+*.lck
 _autosave-*
 \#auto_saved_files\#
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+*.rpt
 
 # Netlist and manufacturing export files
 *.net
@@ -22,6 +25,10 @@ fp-info-cache
 *.csv
 *.tsv
 
+# Allow fabrication files in production
+!FlightController/production/*.csv
+
 # Directories
 /build/
 *-backups/
+
